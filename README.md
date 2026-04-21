@@ -1,18 +1,18 @@
 # ElegeAi `.github`
 
-**Arquivos-padrão de colaboração e saúde da comunidade da organização ElegeAi**
+**Arquivos-padrao de colaboracao e saude da comunidade da organizacao ElegeAi**
 
-O repositório especial **`.github`** concentra os arquivos reutilizáveis que o GitHub pode aplicar automaticamente aos demais repositórios da organização.
+O repositorio especial **`.github`** concentra os arquivos reutilizaveis que o GitHub pode aplicar automaticamente aos demais repositorios da organizacao.
 
-Diferente de um repositório de produto ou arquitetura, este espaço existe para reforçar uma camada institucional da plataforma:
+Este dominio nao representa um modulo de negocio do produto, mas representa algo igualmente importante para a maturidade do ecossistema: consistencia institucional.
 
-**padronizar colaboração, triagem, ownership e governança mínima em todo o ecossistema ElegeAI.**
+**o ElegeAI cresce melhor quando colaboracao, revisao, ownership e seguranca minima tambem crescem de forma organizada.**
 
 ---
 
-## O que este repositório entrega
+## O que este repositorio entrega
 
-Este repositório centraliza componentes organizacionais essenciais, como:
+O `.github` entrega a camada compartilhada de padroes organizacionais da ElegeAi.
 
 - `CODEOWNERS`
 - `CONTRIBUTING.md`
@@ -20,57 +20,78 @@ Este repositório centraliza componentes organizacionais essenciais, como:
 - `PULL_REQUEST_TEMPLATE.md`
 - templates de issue
 
-Esses arquivos ajudam a manter consistência de operação entre todos os repositórios da organização.
+Esses arquivos ajudam a manter disciplina de operacao e previsibilidade entre todos os repositorios da organizacao.
 
 ---
 
-## Posicionamento estratégico
+## Posicionamento estrategico
 
-O papel deste repositório é sustentar disciplina operacional e padronização institucional. Em vez de repetir normas básicas em cada domínio, a organização usa o `.github` para concentrar defaults que aumentam previsibilidade, clareza de ownership e qualidade de colaboração.
+No ecossistema ElegeAI, o `.github` sustenta a padronizacao institucional. Em vez de repetir normas basicas em cada dominio, a organizacao concentra aqui os defaults que orientam colaboracao, triagem e governanca minima.
 
-Esse papel ganha importância à medida que o ecossistema cresce e passa a depender de múltiplos serviços, times, integrações e fluxos de revisão.
+Esse papel reforca valor em frentes como:
+
+- previsibilidade de colaboracao
+- clareza de ownership
+- consistencia entre repositorios
+- maior maturidade de operacao organizacional
 
 ---
 
 ## Arquitetura do ecossistema
 
-Dentro da arquitetura organizacional do ElegeAI, este repositório não executa regra de negócio, mas influencia a governança de todos os demais.
+Dentro da arquitetura organizacional do ElegeAI, o `.github` influencia transversalmente todos os servicos e repositorios.
 
-### O que este repositório centraliza
+### O que este repositorio centraliza
 
-- padrões de contribuição e abertura de mudanças;
-- política base de reporte de segurança;
-- ownership inicial da organização;
-- templates de issues e pull requests;
-- convenções mínimas reaproveitáveis entre os serviços.
+- padroes de contribuicao e abertura de mudancas
+- politica base de reporte de seguranca
+- ownership inicial da organizacao
+- templates de issues e pull requests
+- convencoes minimas reaproveitaveis entre os servicos
 
-### Escopo do domínio
+### Escopo do dominio
 
-Este repositório deve permanecer enxuto e focado em padrões reutilizáveis pela organização. Documentação estratégica, técnica ou sensível deve ficar no repositório privado de governança.
+**Dentro do escopo**
+
+- arquivos de community health e colaboracao
+- convencoes organizacionais compartilhadas
+- templates reutilizaveis entre repositorios
+
+**Fora do escopo**
+
+- documentacao estrategica profunda do produto
+- arquitetura privada e posicionamento executivo
+- regras tecnicas especificas de cada dominio
 
 ---
 
 ## Diferenciais competitivos
 
-Embora não seja um domínio de produto, o `.github` fortalece a maturidade do ecossistema ao criar uma base institucional única para colaboração, revisão e segurança. Isso reduz dispersão documental, melhora consistência entre serviços e reforça a percepção de organização profissional.
+Embora nao seja um dominio funcional do produto, o `.github` ajuda a profissionalizar o ecossistema como um todo.
+
+- reduz dispersao documental
+- melhora padrao de revisao e colaboracao
+- sustenta governanca compartilhada
+- reforca percepcao de organizacao madura e bem estruturada
 
 ---
 
-## Roadmap de construção
+## Roadmap de construcao
 
-- manter templates e padrões organizacionais atualizados;
-- evoluir guidelines de contribuição conforme o ecossistema crescer;
-- complementar a governança global sempre que novos domínios ou necessidades operacionais surgirem.
-
----
-
-## Documentação e governança
-
-- A documentação privada e mais ampla de arquitetura e posicionamento do produto continua centralizada em `ElegeAi/.github-private`.
-- Sempre que houver divergência entre um padrão global deste repositório e uma necessidade específica de domínio, o repositório do serviço pode complementar a documentação local, desde que preserve coerência com a governança organizacional.
+- manter templates e padroes organizacionais atualizados
+- evoluir guidelines conforme o ecossistema crescer
+- complementar governanca global quando novos dominios surgirem
 
 ---
 
-## Visão final
+## Documentacao e governanca
 
-O **ElegeAi `.github`** existe para garantir que a organização cresça com consistência, disciplina e padrão de colaboração compartilhado. Ele representa a camada institucional que ajuda a transformar um conjunto de repositórios em um ecossistema SaaS mais maduro e mais sustentável.
+- a documentacao privada e mais ampla do produto continua centralizada em `ElegeAi/.github-private`
+- repositorios de dominio podem complementar padroes locais quando necessario
+- a referencia publica do projeto esta em `profile/README.md`
+
+---
+
+## Visao final
+
+O **ElegeAi `.github`** existe para dar unidade institucional a organizacao. Ele e a camada silenciosa que ajuda a transformar varios repositorios independentes em um ecossistema mais consistente, mais seguro e mais sustentavel.
